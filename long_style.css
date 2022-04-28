@@ -1,0 +1,150 @@
+#container {
+	max-width:980px;
+	margin:10px auto 20px auto;
+	padding:0 20px;
+	font-family:"Helvetica .Neue",Arial,"Hiragino .Kaku .Gothic .ProN","Hiragino .Sans","BIZ .UDPGothic",Meiryo,sans-serif;
+	font-feature-settings:"palt";
+	box-sizing:border-box margin: 0 auto;
+	text-align: center;
+/*	overflow: hidden;
+*/
+}
+
+@media screen and ( max-width:480px )
+{
+#container{
+display: block;
+margin: 0 auto;
+width:90%;
+}
+}
+
+.main {
+	margin:0 auto;
+}
+
+.title {
+	margin:0 auto;
+	max-width:480px;
+}
+
+.title img {
+	width:100%;
+
+}
+
+.panel_box{
+	width: 50%;
+	margin:0 auto;
+	
+}
+
+.panel_box img{
+	padding: 5.0px;
+}
+
+.overview{
+	margin:0 auto;
+}
+
+.panel01_t01{
+	margin:0 auto;
+	width: 50%;
+	background-color:red;
+}
+.panel01_t02{
+	width:0 auto;
+}
+.panel01_pc01 {
+	margin:0 auto;
+	min-width:400px;
+	max-width:500px;
+}
+.panel01_pc01 img{
+	width: 100%;
+}
+
+.panel01_tx01{
+	max-width:500px;
+	margin:0 auto;
+	text-align: left;
+}
+
+.panel01_pc02-4{
+	max-width: 500px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.panel01_pc02-4 img{
+	padding: 3.5px;
+}
+
+.btn{
+	width: 50%;
+	margin:0 auto;
+}
+.btn img{
+	padding: 3.5px;
+}
+
+.panel01_rk{
+	width: 50%;
+	margin:0 auto;
+	text-align: left;
+}
+.panel01_rk a{
+	text-decoration: none;
+	border: 1px solid;
+	padding:0.5px 3px;
+}
+
+.panel01_rk a:hover{
+	background-color:yellow;
+}
+
+#page_top{
+  width: 90px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  border: 3px solid #3f98ef;
+  border-radius: 15px;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f062';
+  font-size: 25px;
+  color: #3f98ef;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -25px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #3f98ef;
+  position: absolute;
+  top: 38px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
